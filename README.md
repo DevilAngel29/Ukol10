@@ -1,5 +1,6 @@
 # Ukol10
 Ukol10
+
 SELECT name, address FROM FamousVilla WHERE architecturalStyle <> 'functionalismus' AND constructionCompleted - constructionStated>=2;
 SELECT name FROM FamousVilla Where address LIKE '%Pisárky%';
 UPDATE FamousVilla SET name = 'Norbert Schlesinger', constructionCompleted = 1935 WHERE id = 7;
